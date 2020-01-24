@@ -26,6 +26,17 @@
 9. in terminal, run:
     knex seed:make 001-table
 10. in 001-table.js, add table information
-11. in terminal, run:
-    knex seed:run
+11. make other tables as needed
+12. in terminal, run:
     knex migrate:latest
+13. go to SQLite Studio and add new database and find the one created
+14. fill in the table seeds
+15. in terminal, run: 
+    knex seed:run
+16. once you have all the information in your tables and it's correct, set up index.js and server.js
+17. set up db-config file
+18. set up routers and models 
+19. do CRUD operations
+20. test in Postman
+
+
